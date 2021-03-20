@@ -1,0 +1,12 @@
+.home-form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+.home-form-container-fields {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

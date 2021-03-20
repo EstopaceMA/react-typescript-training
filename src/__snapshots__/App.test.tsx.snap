@@ -1,0 +1,1149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Test should render the component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(App)>
+    <App
+      drawer={
+        Object {
+          "activeForm": "Home",
+        }
+      }
+    >
+      <div
+        className="App"
+      >
+        <Connect(Drawer)>
+          <Drawer
+            drawer={
+              Object {
+                "activeForm": "Home",
+              }
+            }
+            setActiveForm={[Function]}
+          >
+            <div
+              className="drawer"
+            >
+              <WithStyles(ForwardRef(Button))
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "brown",
+                  }
+                }
+                value="Home"
+              >
+                <ForwardRef(Button)
+                  classes={
+                    Object {
+                      "colorInherit": "MuiButton-colorInherit",
+                      "contained": "MuiButton-contained",
+                      "containedPrimary": "MuiButton-containedPrimary",
+                      "containedSecondary": "MuiButton-containedSecondary",
+                      "containedSizeLarge": "MuiButton-containedSizeLarge",
+                      "containedSizeSmall": "MuiButton-containedSizeSmall",
+                      "disableElevation": "MuiButton-disableElevation",
+                      "disabled": "Mui-disabled",
+                      "endIcon": "MuiButton-endIcon",
+                      "focusVisible": "Mui-focusVisible",
+                      "fullWidth": "MuiButton-fullWidth",
+                      "iconSizeLarge": "MuiButton-iconSizeLarge",
+                      "iconSizeMedium": "MuiButton-iconSizeMedium",
+                      "iconSizeSmall": "MuiButton-iconSizeSmall",
+                      "label": "MuiButton-label",
+                      "outlined": "MuiButton-outlined",
+                      "outlinedPrimary": "MuiButton-outlinedPrimary",
+                      "outlinedSecondary": "MuiButton-outlinedSecondary",
+                      "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                      "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                      "root": "MuiButton-root",
+                      "sizeLarge": "MuiButton-sizeLarge",
+                      "sizeSmall": "MuiButton-sizeSmall",
+                      "startIcon": "MuiButton-startIcon",
+                      "text": "MuiButton-text",
+                      "textPrimary": "MuiButton-textPrimary",
+                      "textSecondary": "MuiButton-textSecondary",
+                      "textSizeLarge": "MuiButton-textSizeLarge",
+                      "textSizeSmall": "MuiButton-textSizeSmall",
+                    }
+                  }
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "brown",
+                    }
+                  }
+                  value="Home"
+                >
+                  <WithStyles(ForwardRef(ButtonBase))
+                    className="MuiButton-root MuiButton-text"
+                    component="button"
+                    disabled={false}
+                    focusRipple={true}
+                    focusVisibleClassName="Mui-focusVisible"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "brown",
+                      }
+                    }
+                    type="button"
+                    value="Home"
+                  >
+                    <ForwardRef(ButtonBase)
+                      className="MuiButton-root MuiButton-text"
+                      classes={
+                        Object {
+                          "disabled": "Mui-disabled",
+                          "focusVisible": "Mui-focusVisible",
+                          "root": "MuiButtonBase-root",
+                        }
+                      }
+                      component="button"
+                      disabled={false}
+                      focusRipple={true}
+                      focusVisibleClassName="Mui-focusVisible"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "brown",
+                        }
+                      }
+                      type="button"
+                      value="Home"
+                    >
+                      <button
+                        className="MuiButtonBase-root MuiButton-root MuiButton-text"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        style={
+                          Object {
+                            "backgroundColor": "brown",
+                          }
+                        }
+                        tabIndex={0}
+                        type="button"
+                        value="Home"
+                      >
+                        <span
+                          className="MuiButton-label"
+                        >
+                          Home
+                        </span>
+                        <WithStyles(memo)
+                          center={false}
+                        >
+                          <ForwardRef(TouchRipple)
+                            center={false}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child",
+                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                "ripple": "MuiTouchRipple-ripple",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                "root": "MuiTouchRipple-root",
+                              }
+                            }
+                          >
+                            <span
+                              className="MuiTouchRipple-root"
+                            >
+                              <TransitionGroup
+                                childFactory={[Function]}
+                                component={null}
+                                exit={true}
+                              />
+                            </span>
+                          </ForwardRef(TouchRipple)>
+                        </WithStyles(memo)>
+                      </button>
+                    </ForwardRef(ButtonBase)>
+                  </WithStyles(ForwardRef(ButtonBase))>
+                </ForwardRef(Button)>
+              </WithStyles(ForwardRef(Button))>
+              <WithStyles(ForwardRef(Button))
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "",
+                  }
+                }
+                value="Customers"
+              >
+                <ForwardRef(Button)
+                  classes={
+                    Object {
+                      "colorInherit": "MuiButton-colorInherit",
+                      "contained": "MuiButton-contained",
+                      "containedPrimary": "MuiButton-containedPrimary",
+                      "containedSecondary": "MuiButton-containedSecondary",
+                      "containedSizeLarge": "MuiButton-containedSizeLarge",
+                      "containedSizeSmall": "MuiButton-containedSizeSmall",
+                      "disableElevation": "MuiButton-disableElevation",
+                      "disabled": "Mui-disabled",
+                      "endIcon": "MuiButton-endIcon",
+                      "focusVisible": "Mui-focusVisible",
+                      "fullWidth": "MuiButton-fullWidth",
+                      "iconSizeLarge": "MuiButton-iconSizeLarge",
+                      "iconSizeMedium": "MuiButton-iconSizeMedium",
+                      "iconSizeSmall": "MuiButton-iconSizeSmall",
+                      "label": "MuiButton-label",
+                      "outlined": "MuiButton-outlined",
+                      "outlinedPrimary": "MuiButton-outlinedPrimary",
+                      "outlinedSecondary": "MuiButton-outlinedSecondary",
+                      "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                      "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                      "root": "MuiButton-root",
+                      "sizeLarge": "MuiButton-sizeLarge",
+                      "sizeSmall": "MuiButton-sizeSmall",
+                      "startIcon": "MuiButton-startIcon",
+                      "text": "MuiButton-text",
+                      "textPrimary": "MuiButton-textPrimary",
+                      "textSecondary": "MuiButton-textSecondary",
+                      "textSizeLarge": "MuiButton-textSizeLarge",
+                      "textSizeSmall": "MuiButton-textSizeSmall",
+                    }
+                  }
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "",
+                    }
+                  }
+                  value="Customers"
+                >
+                  <WithStyles(ForwardRef(ButtonBase))
+                    className="MuiButton-root MuiButton-text"
+                    component="button"
+                    disabled={false}
+                    focusRipple={true}
+                    focusVisibleClassName="Mui-focusVisible"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "",
+                      }
+                    }
+                    type="button"
+                    value="Customers"
+                  >
+                    <ForwardRef(ButtonBase)
+                      className="MuiButton-root MuiButton-text"
+                      classes={
+                        Object {
+                          "disabled": "Mui-disabled",
+                          "focusVisible": "Mui-focusVisible",
+                          "root": "MuiButtonBase-root",
+                        }
+                      }
+                      component="button"
+                      disabled={false}
+                      focusRipple={true}
+                      focusVisibleClassName="Mui-focusVisible"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "",
+                        }
+                      }
+                      type="button"
+                      value="Customers"
+                    >
+                      <button
+                        className="MuiButtonBase-root MuiButton-root MuiButton-text"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        style={
+                          Object {
+                            "backgroundColor": "",
+                          }
+                        }
+                        tabIndex={0}
+                        type="button"
+                        value="Customers"
+                      >
+                        <span
+                          className="MuiButton-label"
+                        >
+                          Customers
+                        </span>
+                        <WithStyles(memo)
+                          center={false}
+                        >
+                          <ForwardRef(TouchRipple)
+                            center={false}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child",
+                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                "ripple": "MuiTouchRipple-ripple",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                "root": "MuiTouchRipple-root",
+                              }
+                            }
+                          >
+                            <span
+                              className="MuiTouchRipple-root"
+                            >
+                              <TransitionGroup
+                                childFactory={[Function]}
+                                component={null}
+                                exit={true}
+                              />
+                            </span>
+                          </ForwardRef(TouchRipple)>
+                        </WithStyles(memo)>
+                      </button>
+                    </ForwardRef(ButtonBase)>
+                  </WithStyles(ForwardRef(ButtonBase))>
+                </ForwardRef(Button)>
+              </WithStyles(ForwardRef(Button))>
+              <WithStyles(ForwardRef(Button))
+                onClick={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "",
+                  }
+                }
+                value="Settings"
+              >
+                <ForwardRef(Button)
+                  classes={
+                    Object {
+                      "colorInherit": "MuiButton-colorInherit",
+                      "contained": "MuiButton-contained",
+                      "containedPrimary": "MuiButton-containedPrimary",
+                      "containedSecondary": "MuiButton-containedSecondary",
+                      "containedSizeLarge": "MuiButton-containedSizeLarge",
+                      "containedSizeSmall": "MuiButton-containedSizeSmall",
+                      "disableElevation": "MuiButton-disableElevation",
+                      "disabled": "Mui-disabled",
+                      "endIcon": "MuiButton-endIcon",
+                      "focusVisible": "Mui-focusVisible",
+                      "fullWidth": "MuiButton-fullWidth",
+                      "iconSizeLarge": "MuiButton-iconSizeLarge",
+                      "iconSizeMedium": "MuiButton-iconSizeMedium",
+                      "iconSizeSmall": "MuiButton-iconSizeSmall",
+                      "label": "MuiButton-label",
+                      "outlined": "MuiButton-outlined",
+                      "outlinedPrimary": "MuiButton-outlinedPrimary",
+                      "outlinedSecondary": "MuiButton-outlinedSecondary",
+                      "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                      "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                      "root": "MuiButton-root",
+                      "sizeLarge": "MuiButton-sizeLarge",
+                      "sizeSmall": "MuiButton-sizeSmall",
+                      "startIcon": "MuiButton-startIcon",
+                      "text": "MuiButton-text",
+                      "textPrimary": "MuiButton-textPrimary",
+                      "textSecondary": "MuiButton-textSecondary",
+                      "textSizeLarge": "MuiButton-textSizeLarge",
+                      "textSizeSmall": "MuiButton-textSizeSmall",
+                    }
+                  }
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "",
+                    }
+                  }
+                  value="Settings"
+                >
+                  <WithStyles(ForwardRef(ButtonBase))
+                    className="MuiButton-root MuiButton-text"
+                    component="button"
+                    disabled={false}
+                    focusRipple={true}
+                    focusVisibleClassName="Mui-focusVisible"
+                    onClick={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "",
+                      }
+                    }
+                    type="button"
+                    value="Settings"
+                  >
+                    <ForwardRef(ButtonBase)
+                      className="MuiButton-root MuiButton-text"
+                      classes={
+                        Object {
+                          "disabled": "Mui-disabled",
+                          "focusVisible": "Mui-focusVisible",
+                          "root": "MuiButtonBase-root",
+                        }
+                      }
+                      component="button"
+                      disabled={false}
+                      focusRipple={true}
+                      focusVisibleClassName="Mui-focusVisible"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "",
+                        }
+                      }
+                      type="button"
+                      value="Settings"
+                    >
+                      <button
+                        className="MuiButtonBase-root MuiButton-root MuiButton-text"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        style={
+                          Object {
+                            "backgroundColor": "",
+                          }
+                        }
+                        tabIndex={0}
+                        type="button"
+                        value="Settings"
+                      >
+                        <span
+                          className="MuiButton-label"
+                        >
+                          Settings
+                        </span>
+                        <WithStyles(memo)
+                          center={false}
+                        >
+                          <ForwardRef(TouchRipple)
+                            center={false}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child",
+                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                "ripple": "MuiTouchRipple-ripple",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                "root": "MuiTouchRipple-root",
+                              }
+                            }
+                          >
+                            <span
+                              className="MuiTouchRipple-root"
+                            >
+                              <TransitionGroup
+                                childFactory={[Function]}
+                                component={null}
+                                exit={true}
+                              />
+                            </span>
+                          </ForwardRef(TouchRipple)>
+                        </WithStyles(memo)>
+                      </button>
+                    </ForwardRef(ButtonBase)>
+                  </WithStyles(ForwardRef(ButtonBase))>
+                </ForwardRef(Button)>
+              </WithStyles(ForwardRef(Button))>
+            </div>
+          </Drawer>
+        </Connect(Drawer)>
+        <Index>
+          <Connect(HomeForm)>
+            <HomeForm
+              clearHomeForm={[Function]}
+              home={
+                Object {
+                  "firstName": "",
+                  "lastName": "",
+                }
+              }
+              inputHomeForm={[Function]}
+            >
+              <div
+                className="home-form-container"
+              >
+                <WithStyles(ForwardRef(Typography))>
+                  <ForwardRef(Typography)
+                    classes={
+                      Object {
+                        "alignCenter": "MuiTypography-alignCenter",
+                        "alignJustify": "MuiTypography-alignJustify",
+                        "alignLeft": "MuiTypography-alignLeft",
+                        "alignRight": "MuiTypography-alignRight",
+                        "body1": "MuiTypography-body1",
+                        "body2": "MuiTypography-body2",
+                        "button": "MuiTypography-button",
+                        "caption": "MuiTypography-caption",
+                        "colorError": "MuiTypography-colorError",
+                        "colorInherit": "MuiTypography-colorInherit",
+                        "colorPrimary": "MuiTypography-colorPrimary",
+                        "colorSecondary": "MuiTypography-colorSecondary",
+                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                        "displayBlock": "MuiTypography-displayBlock",
+                        "displayInline": "MuiTypography-displayInline",
+                        "gutterBottom": "MuiTypography-gutterBottom",
+                        "h1": "MuiTypography-h1",
+                        "h2": "MuiTypography-h2",
+                        "h3": "MuiTypography-h3",
+                        "h4": "MuiTypography-h4",
+                        "h5": "MuiTypography-h5",
+                        "h6": "MuiTypography-h6",
+                        "noWrap": "MuiTypography-noWrap",
+                        "overline": "MuiTypography-overline",
+                        "paragraph": "MuiTypography-paragraph",
+                        "root": "MuiTypography-root",
+                        "srOnly": "MuiTypography-srOnly",
+                        "subtitle1": "MuiTypography-subtitle1",
+                        "subtitle2": "MuiTypography-subtitle2",
+                      }
+                    }
+                  >
+                    <p
+                      className="MuiTypography-root MuiTypography-body1"
+                    />
+                  </ForwardRef(Typography)>
+                </WithStyles(ForwardRef(Typography))>
+                First Name
+                <WithStyles(ForwardRef(TextField))
+                  className="form-input"
+                  onChange={[Function]}
+                  placeholder="Enter first name"
+                  type="text"
+                  value=""
+                >
+                  <ForwardRef(TextField)
+                    className="form-input"
+                    classes={
+                      Object {
+                        "root": "MuiTextField-root",
+                      }
+                    }
+                    onChange={[Function]}
+                    placeholder="Enter first name"
+                    type="text"
+                    value=""
+                  >
+                    <WithStyles(ForwardRef(FormControl))
+                      className="MuiTextField-root form-input"
+                      color="primary"
+                      disabled={false}
+                      error={false}
+                      fullWidth={false}
+                      required={false}
+                      variant="standard"
+                    >
+                      <ForwardRef(FormControl)
+                        className="MuiTextField-root form-input"
+                        classes={
+                          Object {
+                            "fullWidth": "MuiFormControl-fullWidth",
+                            "marginDense": "MuiFormControl-marginDense",
+                            "marginNormal": "MuiFormControl-marginNormal",
+                            "root": "MuiFormControl-root",
+                          }
+                        }
+                        color="primary"
+                        disabled={false}
+                        error={false}
+                        fullWidth={false}
+                        required={false}
+                        variant="standard"
+                      >
+                        <div
+                          className="MuiFormControl-root MuiTextField-root form-input"
+                        >
+                          <WithStyles(ForwardRef(Input))
+                            autoFocus={false}
+                            fullWidth={false}
+                            multiline={false}
+                            onChange={[Function]}
+                            placeholder="Enter first name"
+                            type="text"
+                            value=""
+                          >
+                            <ForwardRef(Input)
+                              autoFocus={false}
+                              classes={
+                                Object {
+                                  "colorSecondary": "MuiInput-colorSecondary",
+                                  "disabled": "Mui-disabled",
+                                  "error": "Mui-error",
+                                  "focused": "Mui-focused",
+                                  "formControl": "MuiInput-formControl",
+                                  "fullWidth": "MuiInput-fullWidth",
+                                  "input": "MuiInput-input",
+                                  "inputMarginDense": "MuiInput-inputMarginDense",
+                                  "inputMultiline": "MuiInput-inputMultiline",
+                                  "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                  "marginDense": "MuiInput-marginDense",
+                                  "multiline": "MuiInput-multiline",
+                                  "root": "MuiInput-root",
+                                  "underline": "MuiInput-underline",
+                                }
+                              }
+                              fullWidth={false}
+                              multiline={false}
+                              onChange={[Function]}
+                              placeholder="Enter first name"
+                              type="text"
+                              value=""
+                            >
+                              <WithStyles(ForwardRef(InputBase))
+                                autoFocus={false}
+                                classes={
+                                  Object {
+                                    "colorSecondary": "MuiInput-colorSecondary",
+                                    "disabled": "Mui-disabled",
+                                    "error": "Mui-error",
+                                    "focused": "Mui-focused",
+                                    "formControl": "MuiInput-formControl",
+                                    "fullWidth": "MuiInput-fullWidth",
+                                    "input": "MuiInput-input",
+                                    "inputMarginDense": "MuiInput-inputMarginDense",
+                                    "inputMultiline": "MuiInput-inputMultiline",
+                                    "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                    "marginDense": "MuiInput-marginDense",
+                                    "multiline": "MuiInput-multiline",
+                                    "root": "MuiInput-root MuiInput-underline",
+                                    "underline": null,
+                                  }
+                                }
+                                fullWidth={false}
+                                inputComponent="input"
+                                multiline={false}
+                                onChange={[Function]}
+                                placeholder="Enter first name"
+                                type="text"
+                                value=""
+                              >
+                                <ForwardRef(InputBase)
+                                  autoFocus={false}
+                                  classes={
+                                    Object {
+                                      "adornedEnd": "MuiInputBase-adornedEnd",
+                                      "adornedStart": "MuiInputBase-adornedStart",
+                                      "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                                      "disabled": "Mui-disabled Mui-disabled",
+                                      "error": "Mui-error Mui-error",
+                                      "focused": "Mui-focused Mui-focused",
+                                      "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                                      "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                                      "input": "MuiInputBase-input MuiInput-input",
+                                      "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                                      "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                                      "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                                      "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                                      "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                                      "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                                      "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                                      "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                                      "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                                    }
+                                  }
+                                  fullWidth={false}
+                                  inputComponent="input"
+                                  multiline={false}
+                                  onChange={[Function]}
+                                  placeholder="Enter first name"
+                                  type="text"
+                                  value=""
+                                >
+                                  <div
+                                    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                                    onClick={[Function]}
+                                  >
+                                    <input
+                                      aria-invalid={false}
+                                      autoFocus={false}
+                                      className="MuiInputBase-input MuiInput-input"
+                                      disabled={false}
+                                      onAnimationStart={[Function]}
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      placeholder="Enter first name"
+                                      required={false}
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </ForwardRef(InputBase)>
+                              </WithStyles(ForwardRef(InputBase))>
+                            </ForwardRef(Input)>
+                          </WithStyles(ForwardRef(Input))>
+                        </div>
+                      </ForwardRef(FormControl)>
+                    </WithStyles(ForwardRef(FormControl))>
+                  </ForwardRef(TextField)>
+                </WithStyles(ForwardRef(TextField))>
+                <span>
+                  Last Name
+                </span>
+                <WithStyles(ForwardRef(TextField))
+                  className="form-input"
+                  onChange={[Function]}
+                  placeholder="Enter last name"
+                  type="text"
+                  value=""
+                >
+                  <ForwardRef(TextField)
+                    className="form-input"
+                    classes={
+                      Object {
+                        "root": "MuiTextField-root",
+                      }
+                    }
+                    onChange={[Function]}
+                    placeholder="Enter last name"
+                    type="text"
+                    value=""
+                  >
+                    <WithStyles(ForwardRef(FormControl))
+                      className="MuiTextField-root form-input"
+                      color="primary"
+                      disabled={false}
+                      error={false}
+                      fullWidth={false}
+                      required={false}
+                      variant="standard"
+                    >
+                      <ForwardRef(FormControl)
+                        className="MuiTextField-root form-input"
+                        classes={
+                          Object {
+                            "fullWidth": "MuiFormControl-fullWidth",
+                            "marginDense": "MuiFormControl-marginDense",
+                            "marginNormal": "MuiFormControl-marginNormal",
+                            "root": "MuiFormControl-root",
+                          }
+                        }
+                        color="primary"
+                        disabled={false}
+                        error={false}
+                        fullWidth={false}
+                        required={false}
+                        variant="standard"
+                      >
+                        <div
+                          className="MuiFormControl-root MuiTextField-root form-input"
+                        >
+                          <WithStyles(ForwardRef(Input))
+                            autoFocus={false}
+                            fullWidth={false}
+                            multiline={false}
+                            onChange={[Function]}
+                            placeholder="Enter last name"
+                            type="text"
+                            value=""
+                          >
+                            <ForwardRef(Input)
+                              autoFocus={false}
+                              classes={
+                                Object {
+                                  "colorSecondary": "MuiInput-colorSecondary",
+                                  "disabled": "Mui-disabled",
+                                  "error": "Mui-error",
+                                  "focused": "Mui-focused",
+                                  "formControl": "MuiInput-formControl",
+                                  "fullWidth": "MuiInput-fullWidth",
+                                  "input": "MuiInput-input",
+                                  "inputMarginDense": "MuiInput-inputMarginDense",
+                                  "inputMultiline": "MuiInput-inputMultiline",
+                                  "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                  "marginDense": "MuiInput-marginDense",
+                                  "multiline": "MuiInput-multiline",
+                                  "root": "MuiInput-root",
+                                  "underline": "MuiInput-underline",
+                                }
+                              }
+                              fullWidth={false}
+                              multiline={false}
+                              onChange={[Function]}
+                              placeholder="Enter last name"
+                              type="text"
+                              value=""
+                            >
+                              <WithStyles(ForwardRef(InputBase))
+                                autoFocus={false}
+                                classes={
+                                  Object {
+                                    "colorSecondary": "MuiInput-colorSecondary",
+                                    "disabled": "Mui-disabled",
+                                    "error": "Mui-error",
+                                    "focused": "Mui-focused",
+                                    "formControl": "MuiInput-formControl",
+                                    "fullWidth": "MuiInput-fullWidth",
+                                    "input": "MuiInput-input",
+                                    "inputMarginDense": "MuiInput-inputMarginDense",
+                                    "inputMultiline": "MuiInput-inputMultiline",
+                                    "inputTypeSearch": "MuiInput-inputTypeSearch",
+                                    "marginDense": "MuiInput-marginDense",
+                                    "multiline": "MuiInput-multiline",
+                                    "root": "MuiInput-root MuiInput-underline",
+                                    "underline": null,
+                                  }
+                                }
+                                fullWidth={false}
+                                inputComponent="input"
+                                multiline={false}
+                                onChange={[Function]}
+                                placeholder="Enter last name"
+                                type="text"
+                                value=""
+                              >
+                                <ForwardRef(InputBase)
+                                  autoFocus={false}
+                                  classes={
+                                    Object {
+                                      "adornedEnd": "MuiInputBase-adornedEnd",
+                                      "adornedStart": "MuiInputBase-adornedStart",
+                                      "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                                      "disabled": "Mui-disabled Mui-disabled",
+                                      "error": "Mui-error Mui-error",
+                                      "focused": "Mui-focused Mui-focused",
+                                      "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                                      "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                                      "input": "MuiInputBase-input MuiInput-input",
+                                      "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                                      "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                                      "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                                      "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                                      "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                                      "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                                      "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                                      "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                                      "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                                    }
+                                  }
+                                  fullWidth={false}
+                                  inputComponent="input"
+                                  multiline={false}
+                                  onChange={[Function]}
+                                  placeholder="Enter last name"
+                                  type="text"
+                                  value=""
+                                >
+                                  <div
+                                    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+                                    onClick={[Function]}
+                                  >
+                                    <input
+                                      aria-invalid={false}
+                                      autoFocus={false}
+                                      className="MuiInputBase-input MuiInput-input"
+                                      disabled={false}
+                                      onAnimationStart={[Function]}
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      placeholder="Enter last name"
+                                      required={false}
+                                      type="text"
+                                      value=""
+                                    />
+                                  </div>
+                                </ForwardRef(InputBase)>
+                              </WithStyles(ForwardRef(InputBase))>
+                            </ForwardRef(Input)>
+                          </WithStyles(ForwardRef(Input))>
+                        </div>
+                      </ForwardRef(FormControl)>
+                    </WithStyles(ForwardRef(FormControl))>
+                  </ForwardRef(TextField)>
+                </WithStyles(ForwardRef(TextField))>
+                <WithStyles(ForwardRef(Button))
+                  className="form-input"
+                  onClick={[Function]}
+                >
+                  <ForwardRef(Button)
+                    className="form-input"
+                    classes={
+                      Object {
+                        "colorInherit": "MuiButton-colorInherit",
+                        "contained": "MuiButton-contained",
+                        "containedPrimary": "MuiButton-containedPrimary",
+                        "containedSecondary": "MuiButton-containedSecondary",
+                        "containedSizeLarge": "MuiButton-containedSizeLarge",
+                        "containedSizeSmall": "MuiButton-containedSizeSmall",
+                        "disableElevation": "MuiButton-disableElevation",
+                        "disabled": "Mui-disabled",
+                        "endIcon": "MuiButton-endIcon",
+                        "focusVisible": "Mui-focusVisible",
+                        "fullWidth": "MuiButton-fullWidth",
+                        "iconSizeLarge": "MuiButton-iconSizeLarge",
+                        "iconSizeMedium": "MuiButton-iconSizeMedium",
+                        "iconSizeSmall": "MuiButton-iconSizeSmall",
+                        "label": "MuiButton-label",
+                        "outlined": "MuiButton-outlined",
+                        "outlinedPrimary": "MuiButton-outlinedPrimary",
+                        "outlinedSecondary": "MuiButton-outlinedSecondary",
+                        "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                        "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                        "root": "MuiButton-root",
+                        "sizeLarge": "MuiButton-sizeLarge",
+                        "sizeSmall": "MuiButton-sizeSmall",
+                        "startIcon": "MuiButton-startIcon",
+                        "text": "MuiButton-text",
+                        "textPrimary": "MuiButton-textPrimary",
+                        "textSecondary": "MuiButton-textSecondary",
+                        "textSizeLarge": "MuiButton-textSizeLarge",
+                        "textSizeSmall": "MuiButton-textSizeSmall",
+                      }
+                    }
+                    onClick={[Function]}
+                  >
+                    <WithStyles(ForwardRef(ButtonBase))
+                      className="MuiButton-root MuiButton-text form-input"
+                      component="button"
+                      disabled={false}
+                      focusRipple={true}
+                      focusVisibleClassName="Mui-focusVisible"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <ForwardRef(ButtonBase)
+                        className="MuiButton-root MuiButton-text form-input"
+                        classes={
+                          Object {
+                            "disabled": "Mui-disabled",
+                            "focusVisible": "Mui-focusVisible",
+                            "root": "MuiButtonBase-root",
+                          }
+                        }
+                        component="button"
+                        disabled={false}
+                        focusRipple={true}
+                        focusVisibleClassName="Mui-focusVisible"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-text form-input"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            Say Hello
+                          </span>
+                          <WithStyles(memo)
+                            center={false}
+                          >
+                            <ForwardRef(TouchRipple)
+                              center={false}
+                              classes={
+                                Object {
+                                  "child": "MuiTouchRipple-child",
+                                  "childLeaving": "MuiTouchRipple-childLeaving",
+                                  "childPulsate": "MuiTouchRipple-childPulsate",
+                                  "ripple": "MuiTouchRipple-ripple",
+                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                  "root": "MuiTouchRipple-root",
+                                }
+                              }
+                            >
+                              <span
+                                className="MuiTouchRipple-root"
+                              >
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  component={null}
+                                  exit={true}
+                                />
+                              </span>
+                            </ForwardRef(TouchRipple)>
+                          </WithStyles(memo)>
+                        </button>
+                      </ForwardRef(ButtonBase)>
+                    </WithStyles(ForwardRef(ButtonBase))>
+                  </ForwardRef(Button)>
+                </WithStyles(ForwardRef(Button))>
+                <WithStyles(ForwardRef(Button))
+                  className="form-input"
+                  onClick={[Function]}
+                >
+                  <ForwardRef(Button)
+                    className="form-input"
+                    classes={
+                      Object {
+                        "colorInherit": "MuiButton-colorInherit",
+                        "contained": "MuiButton-contained",
+                        "containedPrimary": "MuiButton-containedPrimary",
+                        "containedSecondary": "MuiButton-containedSecondary",
+                        "containedSizeLarge": "MuiButton-containedSizeLarge",
+                        "containedSizeSmall": "MuiButton-containedSizeSmall",
+                        "disableElevation": "MuiButton-disableElevation",
+                        "disabled": "Mui-disabled",
+                        "endIcon": "MuiButton-endIcon",
+                        "focusVisible": "Mui-focusVisible",
+                        "fullWidth": "MuiButton-fullWidth",
+                        "iconSizeLarge": "MuiButton-iconSizeLarge",
+                        "iconSizeMedium": "MuiButton-iconSizeMedium",
+                        "iconSizeSmall": "MuiButton-iconSizeSmall",
+                        "label": "MuiButton-label",
+                        "outlined": "MuiButton-outlined",
+                        "outlinedPrimary": "MuiButton-outlinedPrimary",
+                        "outlinedSecondary": "MuiButton-outlinedSecondary",
+                        "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                        "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                        "root": "MuiButton-root",
+                        "sizeLarge": "MuiButton-sizeLarge",
+                        "sizeSmall": "MuiButton-sizeSmall",
+                        "startIcon": "MuiButton-startIcon",
+                        "text": "MuiButton-text",
+                        "textPrimary": "MuiButton-textPrimary",
+                        "textSecondary": "MuiButton-textSecondary",
+                        "textSizeLarge": "MuiButton-textSizeLarge",
+                        "textSizeSmall": "MuiButton-textSizeSmall",
+                      }
+                    }
+                    onClick={[Function]}
+                  >
+                    <WithStyles(ForwardRef(ButtonBase))
+                      className="MuiButton-root MuiButton-text form-input"
+                      component="button"
+                      disabled={false}
+                      focusRipple={true}
+                      focusVisibleClassName="Mui-focusVisible"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <ForwardRef(ButtonBase)
+                        className="MuiButton-root MuiButton-text form-input"
+                        classes={
+                          Object {
+                            "disabled": "Mui-disabled",
+                            "focusVisible": "Mui-focusVisible",
+                            "root": "MuiButtonBase-root",
+                          }
+                        }
+                        component="button"
+                        disabled={false}
+                        focusRipple={true}
+                        focusVisibleClassName="Mui-focusVisible"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <button
+                          className="MuiButtonBase-root MuiButton-root MuiButton-text form-input"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onDragLeave={[Function]}
+                          onFocus={[Function]}
+                          onKeyDown={[Function]}
+                          onKeyUp={[Function]}
+                          onMouseDown={[Function]}
+                          onMouseLeave={[Function]}
+                          onMouseUp={[Function]}
+                          onTouchEnd={[Function]}
+                          onTouchMove={[Function]}
+                          onTouchStart={[Function]}
+                          tabIndex={0}
+                          type="button"
+                        >
+                          <span
+                            className="MuiButton-label"
+                          >
+                            Clear
+                          </span>
+                          <WithStyles(memo)
+                            center={false}
+                          >
+                            <ForwardRef(TouchRipple)
+                              center={false}
+                              classes={
+                                Object {
+                                  "child": "MuiTouchRipple-child",
+                                  "childLeaving": "MuiTouchRipple-childLeaving",
+                                  "childPulsate": "MuiTouchRipple-childPulsate",
+                                  "ripple": "MuiTouchRipple-ripple",
+                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                  "root": "MuiTouchRipple-root",
+                                }
+                              }
+                            >
+                              <span
+                                className="MuiTouchRipple-root"
+                              >
+                                <TransitionGroup
+                                  childFactory={[Function]}
+                                  component={null}
+                                  exit={true}
+                                />
+                              </span>
+                            </ForwardRef(TouchRipple)>
+                          </WithStyles(memo)>
+                        </button>
+                      </ForwardRef(ButtonBase)>
+                    </WithStyles(ForwardRef(ButtonBase))>
+                  </ForwardRef(Button)>
+                </WithStyles(ForwardRef(Button))>
+              </div>
+            </HomeForm>
+          </Connect(HomeForm)>
+        </Index>
+      </div>
+    </App>
+  </Connect(App)>
+</Provider>
+`;
